@@ -33,19 +33,11 @@ p {
   animation: fadeIn 2s ease-in;
 }
 
-/* .events {
+.events {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-} */
-.events {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: auto;
 }
 
 .card {
