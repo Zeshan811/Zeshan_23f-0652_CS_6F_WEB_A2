@@ -1,0 +1,96 @@
+p {
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 10px;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+
+.profile {
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 2s ease-in;
+}
+
+.events {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #1e3c72;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: orange;
+  transform: scale(1.1);
+}
+
+h1 {
+  text-shadow: 2px 2px 5px black;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .events {
+    flex-direction: column;
+    align-items: center;
+  }
+}
